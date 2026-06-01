@@ -52,3 +52,14 @@ const search = (query) => {
 
 // console.log(search('Nico'));
 console.log(search('hsdjkfhdsj'));
+
+
+
+function filterByLength(array) {
+  const rta = array.filter((item) => item.length >= 4 );
+  return rta;
+}
+
+words = ['amor', 'sol', 'piedra', 'día'];
+
+console.log(filterByLength(words));

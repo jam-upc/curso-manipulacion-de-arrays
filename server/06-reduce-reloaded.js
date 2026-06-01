@@ -50,3 +50,13 @@ const rta1 = data
 }, {});
 
 console.log(rta1);
+
+
+function calcSum(numbers) {
+  const rta = numbers.reduce((suma, number) => suma + number,0);
+  return rta;
+}
+
+
+console.log(calcSum([1,2,3,4]));
+[2, 4, 8]
