@@ -28,6 +28,7 @@ console.log("rta", rta);
 //   item.tax = 0.19;
 //   return item;
 // });
+//ESTO MODIFICA EL OBJETO ORIGINAL!!!!
 // console.log("rta2", rta2);
 // console.log("original", orders);
 const rta3 = orders.map((item) => {
