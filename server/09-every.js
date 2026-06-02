@@ -31,3 +31,8 @@ const team = [
     age: 18,
   },
 ];
+
+team.length
+const rta3 = team.every (teammate => teammate.age < 15);
+console.log(rta3);
+
