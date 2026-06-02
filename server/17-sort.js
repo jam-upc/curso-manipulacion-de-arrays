@@ -2,7 +2,7 @@ const months = ['March', 'Jan', 'Feb', 'Dec'];
 months.sort();
 console.log(months);
 const numbers = [1, 30, 4, 21, 100000];
-numbers.sort((a,b) => b - a);
+numbers.sort((a,b) => b - a); //Desc (b-a) , ASC (a-b)
 console.log(numbers);
 const words = ['réservé', 'premier', 'communiqué', 'café', 'adieu', 'éclair', 'banana'];
 words.sort((a,b) => a.localeCompare(b));
@@ -31,3 +31,5 @@ const orders = [
   ];
   orders.sort((a,b) => b.total - a.total);
   console.log(orders);
+
+  words.reduce()
